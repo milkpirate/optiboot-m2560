@@ -2,7 +2,7 @@
 
 f_cpus=(8000000 16000000 20000000 24000000 25000000)
 avr_types=("atmega1284p" "atmega2560")
-baudrates=(115200 250000 500000 1000000 2000000)
+baudrates=(57600 115200 250000 500000 1000000 2000000)
 
 git clone https://github.com/majekw/optiboot.git
 cd optiboot/optiboot/bootloaders/optiboot/
