@@ -5,4 +5,4 @@ To install required (ubuntu) packages issue `sudo apt-get install avr-libc binut
 
 Added more baudrates and frequencies. Incompatible combinations will be dicarded by the optiboot build process.
 
-Also attached an example `board.txt` (for the ATmega2560, 16MHz, 1Mbaud) to tell the Arduino IDE how to handle these bootloaders. Depending on the hex file resp. chip and baudrate you want to use, you need to modify the `board.txt` correspondingly.
+Also attached an example `board.txt` (for the ATmega2560, 16MHz, 1Mbaud) to tell the Arduino IDE how to handle these bootloaders. Depending on the hex file (resp. chip, baudrate, frequency) you want to use, you need to modify the `board.txt` correspondingly.
