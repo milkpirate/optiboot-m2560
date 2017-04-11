@@ -1,0 +1,23 @@
+#############################################
+mega2560o1m.name=ATmega2560 16MHz (opti - 1Mbaud)
+
+mega2560o1m.upload.protocol=arduino
+mega2560o1m.upload.maximum_size=258048
+mega2560o1m.upload.speed=1000000
+mega2560o1m.upload.tool=avrdude
+
+mega2560o1m.bootloader.low_fuses=0xFF
+mega2560o1m.bootloader.high_fuses=0xD8
+mega2560o1m.bootloader.extended_fuses=0xFD
+mega2560o1m.bootloader.file=optiboot/optiboot_atmega2560_freq-16000000L_1000000baud.hex
+mega2560o1m.bootloader.tool=arduino:avrdude
+mega2560o1m.bootloader.unlock_bits=0x3F
+mega2560o1m.bootloader.lock_bits=0x0F
+
+mega2560o1m.build.mcu=atmega2560
+mega2560o1m.build.f_cpu=16000000L
+#mega2560o11b52.build.board=AVR_SANGUINO
+mega2560o1m.build.board=AVR_MEGA2560
+mega2560o1m.build.core=arduino
+mega2560o1m.build.variant=mega
+#############################################
