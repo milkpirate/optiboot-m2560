@@ -1,5 +1,5 @@
 # optiboot-m2560
-Quick build script to compile the Optiboot bootloader for ATmega1284p and ATmega2560.
+Quick build script to compile the Optiboot bootloader for ATmega1284p and ATmega2560 (untested).
 
 To install required (Ubuntu) packages issue `sudo apt-get install avr-libc binutils-avr gcc-avr`.
 
